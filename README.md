@@ -44,8 +44,8 @@ the city down, it washes it out.
 
 ### Pico do Jaraguá — `sp_night_jaragua`
 
-The same night, seen from the city's highest point. The dark rotated towards the
-green of the forest, the red-and-white tower lit at the top.
+The same night, seen from the city's highest point. Near-black surfaces, with
+the forest left to the accents — and the red-and-white tower lit at the summit.
 
 ![Ghostty themed with SP Night Pico do Jaraguá](assets/preview-jaragua.svg)
 
@@ -89,10 +89,23 @@ cp ghostty/themes/* ~/.config/ghostty/themes/
 | `split-divider-color` | `ui.border` | *fiação*, overhead wiring cutting the sky |
 | `unfocused-split-fill` | `ui.bg_deep` | *vão*, the deepest recess |
 
-No hex in this repo was picked by hand: every value is generated from the
-[SP Night palette](https://sp-night.github.io/palette) through its semantic role
-layer, and the palette itself passes a contrast audit —
-[every rule in the spec is a CI gate, not a promise](https://sp-night.github.io/spec).
+No hex in this repo was picked by hand. Every value comes from the
+[SP Night palette](https://sp-night.github.io/palette) through its role layer,
+both published as data:
+[`palette.json`](https://sp-night.github.io/palette.json) and
+[`roles.json`](https://sp-night.github.io/roles.json). The contrast floors those
+colours have to clear are [written down in the spec](https://sp-night.github.io/spec)
+and enforced by the site's test suite.
+
+## The mapping
+
+[`ghostty.tmpl`](ghostty.tmpl) is the full record of which Ghostty key means
+which role — the table above in complete form. The theme files in
+[`themes/`](themes) are what it resolves to, one per flavour.
+
+You never need it to use the theme: the shipped files are plain text and final.
+It is here so the mapping survives, and so a retuned palette can be rolled
+through this port without anyone re-deciding what `cursor-color` means.
 
 ## License
 
