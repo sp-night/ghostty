@@ -95,12 +95,12 @@ both published as data:
 [`palette.json`](https://sp-night.github.io/palette.json) and
 [`roles.json`](https://sp-night.github.io/roles.json). The contrast floors those
 colours have to clear are [written down in the spec](https://sp-night.github.io/spec)
-and enforced by the site's test suite.
+and enforced in CI.
 
 ## The mapping
 
-[`ghostty.tmpl`](ghostty.tmpl) is the full record of which Ghostty key means
-which role — the table above in complete form. The theme files in
+[`ghostty.tmpl`](ghostty.tmpl) is the full record of which Ghostty key means which
+role — the table above in complete form. The files in
 [`themes/`](themes) are what it resolves to, one per flavour.
 
 You never need it to use the theme: the shipped files are plain text and final.
