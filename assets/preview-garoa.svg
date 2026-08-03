@@ -14,10 +14,9 @@
   <text x="26" y="186" xml:space="preserve" class="mono"><tspan fill="#8d949f">-- the sodium lamp that turns the whole city this colour</tspan></text>
   <text x="26" y="212" xml:space="preserve" class="mono"><tspan fill="#7993cb">local </tspan><tspan fill="#c7cdd6">palette </tspan><tspan fill="#77babf">= </tspan><tspan fill="#7993cb">require</tspan><tspan fill="#8d949f">(</tspan><tspan fill="#9acaa2">"sp_night.palette"</tspan><tspan fill="#8d949f">)</tspan></text>
   <text x="26" y="238" xml:space="preserve" class="mono"><tspan fill="#7993cb">if </tspan><tspan fill="#e7cb8a">vim</tspan><tspan fill="#c7cdd6">.o.background </tspan><tspan fill="#77babf">~= </tspan><tspan fill="#9acaa2">"dark" </tspan><tspan fill="#7993cb">then return </tspan><tspan fill="#e3a068">nil</tspan><tspan fill="#8d949f">, </tspan><tspan fill="#9acaa2">"dark only, by decision" </tspan><tspan fill="#7993cb">end</tspan></text>
-  <text x="26" y="290" xml:space="preserve" class="mono"><tspan fill="#e3a068">~/sp-night </tspan><tspan fill="#7993cb">❯ </tspan><tspan fill="#c7cdd6">gen check</tspan></text>
-  <text x="26" y="316" xml:space="preserve" class="mono"><tspan fill="#9acaa2">✓ </tspan><tspan fill="#c7cdd6">contrast   </tspan><tspan fill="#8d949f">70 pairs per flavor, AA on every surface</tspan></text>
+  <text x="26" y="290" xml:space="preserve" class="mono"><tspan fill="#e3a068">~/sp-night </tspan><tspan fill="#7993cb">❯ </tspan><tspan fill="#c7cdd6">spn check</tspan></text>
+  <text x="26" y="316" xml:space="preserve" class="mono"><tspan fill="#9acaa2">✓ </tspan><tspan fill="#c7cdd6">contrast   </tspan><tspan fill="#8d949f">70 pairs per flavour, AA on every surface</tspan></text>
   <text x="26" y="342" xml:space="preserve" class="mono"><tspan fill="#9acaa2">✓ </tspan><tspan fill="#c7cdd6">accents    </tspan><tspan fill="#8d949f">separation ΔE ≥ 0.10 or ΔL ≥ 0.04</tspan></text>
-  
   <text x="26" y="384" class="mono" fill="#767d88" font-size="12">palette 0–15</text>
   <rect x="26.0" y="396" width="43.6" height="26" rx="4" fill="#151719"/>
   <rect x="75.6" y="396" width="43.6" height="26" rx="4" fill="#d87676"/>
@@ -35,5 +34,4 @@
   <rect x="671.1" y="396" width="43.6" height="26" rx="4" fill="#c2aae7"/>
   <rect x="720.8" y="396" width="43.6" height="26" rx="4" fill="#8acdd2"/>
   <rect x="770.4" y="396" width="43.6" height="26" rx="4" fill="#c7cdd6"/>
-  
 </svg>
