@@ -1,11 +1,17 @@
+---
+spn:
+  version: "^1.0"
+  matrix: [flavor]
+  filename: "themes/sp_night_{{ .Flavor }}"
+---
 # SP Night — {{ .FlavorLabel }}
 # {{ .FlavorDesc }}
 #
 # Generated from the SP Night palette — do not edit by hand.
-# https://github.com/sp-night/ghostty
+# {{ .Repo }}
 #
-# install: ~/.config/ghostty/themes/sp_night_{{ .Flavor }}
-# enable:  theme = sp_night_{{ .Flavor }}
+# install: {{ .Install }}
+# enable:  {{ .Activate }}
 
 palette = 0={{ .R.ansi.black }}
 palette = 1={{ .R.ansi.red }}
